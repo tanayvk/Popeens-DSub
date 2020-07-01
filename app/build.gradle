@@ -52,11 +52,6 @@ android {
 	lintOptions {
 		checkReleaseBuilds false
 	}
-	signingConfigs {
-		debug {
-			storeFile file('A:\\Development\\Popeens-DSub\\debug.keystore')
-		}
-	}
 	buildToolsVersion '28.0.3'
 }
 
