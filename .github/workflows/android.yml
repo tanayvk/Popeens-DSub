@@ -25,3 +25,8 @@ jobs:
       
     - name: Build with Gradle
       run: ./gradlew assembleRelease
+
+    - uses: actions/upload-artifact@v2
+      with:
+        name: build
+        path: ./app/build/outputs
